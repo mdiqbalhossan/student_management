@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at -3.1% -4.3%, rgba(57, 255, 186, 1) 0%, rgba(21, 38, 82, 1) 90%);
+}
+
+.wrapper{
+    height: 100vh;
+}
+
+.my_color{
+    background-image: linear-gradient(to right, #f83600 50%, #f9d423 150%);
+}
+
+.my_shadow{
+    box-shadow: 0 5px 10px #111;
+}
+
+.my_btn{
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+    border: none;
+}
+
+.my_btn:hover{
+    background-image: linear-gradient(to right, #495aff 0%, #0acffe 100%);
+}
+
+.my_hr{
+    height: 2px;
+    border-radius: 100px;
+}
+
+.my_link_btn{
+    border-radius: 100px;
+    width: 50%;
+    border: 2px solid #fff;
+}
+
+@media(max-width: 720px){
+	.wrapper{
+		margin: 2px;
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/lib/vendor/composer" />
+      <path value="$PROJECT_DIR$/lib/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/lib/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/lib/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/lib/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/lib/vendor/sabberworm/php-css-parser" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+</project>
